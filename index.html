@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI or Not?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="wrap">
+    <header class="top">
+      <div>
+        <h1>AI or Not?</h1>
+        <p class="sub">Guess whether the image is AI-generated or real.</p>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <span id="round">1</span>/<span id="total">10</span>
+          <div class="label">Round</div>
+        </div>
+
+        <div class="stat">
+          <span id="score">0</span>
+          <div class="label">Score</div>
+        </div>
+
+        <div class="stat">
+          <span id="streak">0</span>
+          <div class="label">Streak</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="card">
+      <div id="contentArea" class="content-area">
+        <div class="loading">Loading...</div>
+      </div>
+
+      <div class="buttons">
+        <button id="btnAI" class="btn primary">AI</button>
+        <button id="btnNot" class="btn">Not AI</button>
+      </div>
+
+      <div id="feedback" class="feedback"></div>
+
+      <div class="actions">
+        <button id="btnRestart" class="btn small ghost">Restart</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
