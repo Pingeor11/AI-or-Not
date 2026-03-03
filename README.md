@@ -1,4 +1,4 @@
-AI-Generated Image Guessing Game
+# AI-Generated Image Guessing Game
 
 **Live Demo:** https://pingeor11.github.io/AI-or-Not/
 
